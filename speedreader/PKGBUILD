@@ -17,7 +17,6 @@ prepare() {
 
 build() {
   cd "${_srcname}-${pkgver}"
-  echo "${pkgdir}"
   qmake-qt5 ${_srcname}.pro -r -spec linux-g++
   make
 }
