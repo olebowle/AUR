@@ -1,6 +1,6 @@
 # Maintainer: Ole Ernst <olebowle[at]gmx[dot]com>
 pkgname=media-build-dvbsky
-pkgver=20141106
+pkgver=20141219
 pkgrel=1
 pkgdesc="Driver for DVBSky cards/boxes"
 arch=('i686' 'x86_64')
