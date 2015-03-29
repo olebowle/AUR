@@ -2,12 +2,12 @@
 _srcname=SpeedReader
 pkgname=${_srcname,,}
 pkgver=1.4.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Cross-platform speed reading developed with Qt"
 url="http://www.vanniktech.de/${_srcname}"
 arch=('x86_64' 'i686')
 license=('GPL2')
-depends=('libxkbcommon-x11' 'qt5-base' 'qt5-webkit')
+depends=('libxkbcommon-x11' 'qt5-base' 'qt5-svg' 'qt5-webkit')
 makedepends=('gendesk')
 source=("https://github.com/vanniktech/${_srcname}/archive/v${pkgver}.tar.gz")
 md5sums=('39abd4e23f8e5f3dee3c3cd2c1451c03')
